@@ -5,7 +5,7 @@ import com.littlelemon.menu.FilterType.Dessert
 import com.littlelemon.menu.FilterType.Drinks
 import com.littlelemon.menu.FilterType.Food
 
-class FilterHelper {//TODO create a FilterHelperTest and write a unit test for filterProducts
+class FilterHelper {
 
     fun filterProducts(type: FilterType, productsList: List<ProductItem>): List<ProductItem> {
         return when (type) {

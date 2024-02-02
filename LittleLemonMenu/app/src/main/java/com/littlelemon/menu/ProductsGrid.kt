@@ -41,9 +41,7 @@ fun ProductsGrid(products: Products, startProductActivity: (Context, ProductItem
                         painter = painterResource(id = productItem.image),
                         contentDescription = productItem.title,
                         contentScale = ContentScale.Crop,
-                        modifier = Modifier.clickable {
-                            startProductActivity(context, productItem)
-                        }
+                        modifier = Modifier.clickable { startProductActivity(context, productItem) }
                     )
                     Text(text = productItem.title)
                 }

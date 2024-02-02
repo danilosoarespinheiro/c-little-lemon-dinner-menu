@@ -1,4 +1,4 @@
-package com.littlelemon.menu.ui
+package com.littlelemon.menu
 
 import com.littlelemon.menu.ProductItem
 import com.littlelemon.menu.R
